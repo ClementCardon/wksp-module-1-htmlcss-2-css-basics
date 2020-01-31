@@ -1,20 +1,27 @@
 img {
     max-width: 300px;
   }
-  
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
   .img1 {
-  
+    margin: 5px 0px 40px 5px;
   }
   
   .img2 {
-  
+    position: absolute;
+    z-index: -1;
   }
   
   .img3 {
-  
+    margin-left: 600px;
   }
   
   .img4 {
-  
-  }
+    margin-left: 780px;
+    position: relative;
+    margin-top: -10px;
+     }
   

@@ -65,8 +65,9 @@ Write the CSS to make the cat text blue.
 
 ```css
 /* css here */
-
-```
+.royalcat {
+  color: blue;
+}```
 
 ---
 
